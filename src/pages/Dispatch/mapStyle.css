@@ -1,0 +1,11 @@
+
+
+  #printoutPanel{
+    display: none;
+  }
+
+
+
+  .errorStyle{
+    border: 1px solid red;
+  }

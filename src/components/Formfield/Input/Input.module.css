@@ -1,0 +1,150 @@
+html {
+  font-size: 16px;
+}
+.Wrap {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.errorStyle {
+  border: 1px solid red !important;
+}
+.LabelStyle {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+}
+
+.inputFieldWrap {
+  position: relative;
+}
+
+.inputFieldStyle {
+  font-size: 1rem !important;
+  padding: 0.6rem 0.6rem 0.6rem 1.2rem !important;
+  width: 20rem;
+  font-family: 'Nunito', sans-serif;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(26, 16, 0, 0.1);
+  letter-spacing: 1.3px;
+}
+
+.inputFieldStyle::placeholder {
+  font-size: 0.9rem;
+  vertical-align: middle;
+  letter-spacing: 1.3px;
+}
+
+.dolar {
+  position: absolute;
+  left: 1.7%;
+  top: 27%;
+}
+
+.textedArea {
+  resize: none;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(26, 16, 0, 0.1);
+  padding: 0.6rem 0.6rem 0.6rem 1.2rem !important;
+  font-size: 1rem !important;
+  width: 20rem;
+}
+.textAreaWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textedArea::placeholder {
+  font-size: 0.9rem;
+  vertical-align: middle;
+  letter-spacing: 1.5px;
+}
+
+#addNewButton {
+  background-color: #fff;
+  color: #3288e6;
+  border: 1px solid var(--border);
+  padding: 0.6rem;
+  font-weight: 500;
+  border-radius: 0.6rem;
+  display: flex;
+  align-items: center;
+}
+
+#addNewButton i {
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1286px) {
+  .inputFieldStyle {
+    width: 15rem;
+  }
+  .textedArea {
+    width: 15rem;
+  }
+  .LabelStyle {
+    font-size: 0.9rem;
+  }
+
+  #addNewButton {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .inputFieldStyle {
+    width: 27rem;
+  }
+
+  .textedArea {
+    width: 27rem;
+  }
+}
+
+@media (max-width: 696px) {
+  .inputFieldStyle {
+    width: 24rem;
+  }
+
+  .textedArea {
+    width: 24rem;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .Wrap {
+    flex-direction: column;
+  }
+
+  .inputFieldStyle {
+    width: 100%;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+  }
+
+  .inputFieldStyle::placeholder {
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+
+  .textAreaWrap {
+    flex-direction: column;
+  }
+
+  .LabelStyle {
+    margin-bottom: 0.3rem;
+    font-size: 1.05rem;
+    letter-spacing: 2px;
+  }
+
+  .textedArea {
+    width: 100%;
+  }
+
+  .textedArea::placeholder {
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+}

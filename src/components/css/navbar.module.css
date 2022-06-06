@@ -1,0 +1,110 @@
+.topnav__search {
+  position: relative;
+  height: 50px;
+  background-color: var(--main-bg);
+  display: flex;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.topnav__search > input {
+  height: 100%;
+  width: 100%;
+  padding: 10px 60px 10px 20px;
+  font-size: 1rem;
+  border-radius: var(--border-radius);
+  color: var(--txt-color);
+  background-color: var(--main-bg);
+}
+
+.topnav__search > i {
+  font-size: 1.5rem;
+  position: absolute;
+  right: 20px;
+}
+
+.topnav__right_user {
+  display: flex;
+  align-items: center;
+}
+
+.topnav__right_user__image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.topnav__right_user__image > img {
+  width: 100%;
+}
+
+.topnav__right_user__name {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.parent_nav_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.right_nav_div {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: space-between;
+}
+.right_nav_div_userinfo,
+.right_nav_div_bellnotification {
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+
+}
+
+.right_nav_div_thememenu {
+  margin-right: 1rem;
+}
+
+/* responsive mobile css */
+@media only screen and (max-width: 1300px) {
+  .parent_nav_div {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .right_nav_div_userinfo,
+  .right_nav_div_bellnotification {
+    margin-right: 1rem;
+    color:black;
+    justify-content: end;
+  }
+
+  .right_nav_div_thememenu {
+    margin-right: 0rem;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+
+  .parent_nav_div {
+    margin-top: 10px;
+  }
+
+
+  .topnav__right_user {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+  }
+  .topnav__right_user__name {
+    display:none
+  }
+}

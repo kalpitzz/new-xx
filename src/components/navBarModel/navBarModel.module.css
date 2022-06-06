@@ -1,0 +1,55 @@
+.box {
+  background-color: white;
+  position: absolute;
+  z-index: 100;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.2rem 0rem 0.2rem;
+  width: 100%;
+}
+
+.mainButton {
+  padding: 0.3rem 0.8rem 0.3rem 0.4rem;
+  font-size: 1.1rem;
+  border-radius: 0.3rem;
+  background-color: #3288e6;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 9rem;
+}
+
+.mapedDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+  padding: 0.3rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+.mapedDiv:hover {
+  background-color: #ebebeb;
+}
+.badge {
+  padding: 0.35rem 0.65rem;
+  border-radius: 50%;
+  text-align: right;
+  width: 25%;
+  color: white;
+}
+
+.text {
+  width: 70%;
+}
+
+@media (max-width: 912px) {
+  .mainButton {
+    padding: 0.3rem 0.4rem 0.3rem 0.2rem;
+    font-size: 0.9rem;
+    width: 7rem;
+  }
+}

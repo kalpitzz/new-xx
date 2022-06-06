@@ -1,0 +1,450 @@
+#title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+  }
+  
+  #title h2 {
+    font-size: 1.4rem;
+  }
+  #title i {
+    border: 1px solid rgba(141, 141, 141, 0.87);
+    padding: 0.7rem 0.8rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    color: #3288e6;
+    cursor: pointer;
+    background-color: #ffffff;
+  }
+
+  #search{
+      width: 100%;
+      border: 1px solid #c4c4c4;
+      outline: none;
+      padding: 0.5rem 3rem;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+  }
+  .active{
+    background-color: #3288e6;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: #ffffff;
+  }
+  .choiceWrap{
+    margin-left: 4rem;
+    border: 1px solid #9d9d9d;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .choiceWrap button:hover{
+    background-color: #ffffff;
+    color: #3288e6;
+  }
+
+
+  #dropTrailer{
+    display: flex;
+    justify-content:space-between ;
+    max-width: 8rem;
+    margin-bottom: 1rem;
+    
+  }
+  .errorStyle{
+    border:1px solid red ;
+  }
+
+  #buttonSection{
+    background-color:#efeff2;
+    padding: 1rem 0;
+    border-radius: .5rem;
+    margin-top: 0.5rem;
+  }
+  
+  #buttonWraper{
+    font-size: 1rem;
+    width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+ 
+  
+
+  #buttonWraper button:nth-of-type(2){
+    background-color:#3288e6;
+    padding: .6rem .7rem;
+    width: 14rem;
+    border-radius: .6rem;
+    color: white;
+    font-weight: 500;
+  }
+  #buttonWraper button:nth-of-type(1){
+    background-color:white;
+    padding: .6rem .7rem;
+    width: 14rem;
+    border-radius: .6rem;
+    color: #616161;
+    border:1px solid var(--border);
+    font-weight: 500;
+  }
+
+  #header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #efeff2;
+    padding: .7rem .4rem;
+    font-size: .8rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: .5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #details{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: .7rem .4rem;
+    font-size: .8rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: .5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  /* -------------------------------------------------------------------------------------------------------------- */
+
+  #base {
+    position: relative;
+  }
+  
+  .popUp {
+    background-color: rgb(41, 41, 41, 0.4);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 0.8rem;
+    width: 100%;
+    height: 100%;
+    margin: 5rem auto 0 auto;
+    position: absolute;
+    top: 0;
+  }
+
+  .LoadWrapDispatch{
+    display: grid;
+    padding-left: 3rem;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+  }
+  .FreightWrapDispatch{
+    display: grid;
+    padding-left: 3rem;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+  }
+  #line{
+    background-color: #adadad;
+    height: 1px;
+  }
+
+  .card{
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+
+  .card h3{
+    margin-bottom: 0.5rem;
+  }
+  .card h4{
+    margin-bottom: 0.5rem;
+    color: #9d9d9d;
+  }
+
+  .FreightWrap h3{
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+  }
+  .AllWrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(8rem, auto);
+    row-gap: 2rem;
+    column-gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .wrapField{
+    margin-top: 0.5rem;
+  }
+
+  /* Check Call-------------------------------------------------------------------------------------- */
+
+  .checkCall h4{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .checkCallWrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+    row-gap: 1rem;
+  }
+  .current_Location{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .current_Location label{
+   margin-top: 0.5rem;
+   font-size: 1rem;
+   font-weight: 500;
+   letter-spacing: 1.3px;
+  }
+
+
+  #buttonSection{
+    background-color:#efeff2;
+    padding: 1rem 0;
+    border-radius: .5rem;
+    margin-top: 0.5rem;
+  }
+
+
+
+  .current_Location_wrapper{
+    display: flex;
+    width: 20rem;
+    position: relative;
+    border-radius: 0.45rem;
+    justify-content: space-between;
+  }
+
+  .city_field{
+    border: 1px solid rgba(26, 16, 0, 0.1);
+    border-radius: .5rem;
+    font-size: 1rem;
+    padding: 0.6rem 0.6rem 0.6rem .9rem ;
+    letter-spacing: 1.3px;
+    width: 87.5%;
+    margin-right: .4rem;
+  }
+  .zipcode{
+    border: 1px solid rgba(26, 16, 0, 0.1);
+    border-radius: .5rem;
+    font-size: 1rem;
+    padding: 0.6rem 0.6rem 0.6rem .9rem ;
+    letter-spacing: 1.3px;
+    width: 100%;
+  }
+
+  .city_wrap{
+    width: 68%;
+    border-radius: .5rem;
+    position: relative;
+  }
+
+  .city_wrap div{
+    color: red;
+    position: absolute;
+    right: 2rem;
+    bottom: -10%;
+    font-size: 0.7rem;
+    background-color: white;
+  }
+
+  .zipcode_wrap{
+   width: 30%;
+   border-radius: .5rem;
+   position: relative;
+  }
+  .zipcode_wrap div{
+    color: red;
+    position: absolute;
+    right: 1rem;
+    bottom: -10%;
+    font-size: 0.7rem;
+    background-color: white;
+  }
+
+  .tripSheetWrap{
+    background-color: #ffffff;
+  }
+  .tripSheet_map{
+    display: flex;
+    height: 60vh ;
+    
+  }
+
+  .distance_print_wrap{
+    width: 50%;
+    overflow-y: auto;
+  }
+
+  .map_distance{
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .path_wrap p:nth-of-type(1){
+    font-weight: 500;
+    text-align: center;
+  }
+  .path_wrap p:nth-of-type(2){
+    text-align: center;
+  }
+
+
+   .driverAlertWrap{
+    background-color: #ffffff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 0.5rem;
+    width: 40%;
+  }
+  .driverAlertWrap h4{
+   background-color: #ff8e8e;
+   margin-top: 1rem;
+   text-align: center;
+   letter-spacing: 1.5px;
+  }
+  .driverAlertTextWrap{
+    padding: 1rem;
+    text-align: center;
+  }
+  .driverAlertWrap button{
+    background-color:#ff8e8e;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+  
+  .driverAlertClose{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  @media (max-width: 1286px) {
+    .current_Location_wrapper{
+      width: 15rem;
+    } 
+  }
+
+
+  @media (max-width: 912px) {
+    .popUp {
+      width: 100%;
+      margin: 5rem auto 0 auto;
+    }
+    .LoadWrapDispatch{
+      grid-template-columns: 1fr;
+    }
+    .FreightWrapDispatch{
+      grid-template-columns: 1fr;
+    }
+
+    .AllWrap{
+      grid-template-columns: 1fr;
+    }
+
+    .LoadWrapDispatch{
+      grid-template-columns: 1fr;
+    }
+    .checkCallWrap{
+      grid-template-columns: 1fr;
+    }
+    .current_Location_wrapper{
+      width: 27rem;
+    }
+    .tripSheet_map{
+      display: flex;
+      flex-direction: column;
+      height: 120vh;
+    }
+
+    .distance_print_wrap{
+      width: 100%;
+      height: 60vh;
+    }
+
+    #title h2 {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 696px) {
+    .current_Location_wrapper{
+      width: 24rem;
+    } 
+  }
+
+  @media (max-width: 625px) {
+    .current_Location_wrapper{
+      width: 100%;
+    } 
+    .current_Location{
+      flex-direction: column;
+    }
+    .current_Location label{
+      margin-bottom: 0.3rem;
+    }
+  }
+
+  @media (max-width: 550px) {
+    #buttonWraper{
+      width: 80%;
+    }
+    .dispatchButtonWrapper button:nth-of-type(2) {
+      padding: 0.3rem 0.7rem  !important;
+      }
+
+      #title i {
+        padding: 0.5rem 0.6rem;
+      }
+    
+  #buttonWraper button:nth-of-type(2){
+    width: 10rem;
+  }
+  #buttonWraper button:nth-of-type(1){
+    width: 10rem;
+  }
+  .choiceWrap{
+    margin-left: 2rem;
+  }
+  }
+
+  @media (max-width: 500px) {
+    #buttonWraper{
+      width: 80%;
+    }
+    #buttonWraper button:nth-of-type(2){
+      width: 7rem;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+    }
+    #buttonWraper button:nth-of-type(1){
+      width: 7rem;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+    }
+
+    .LoadWrapDispatch{
+     padding-left: 1rem;
+    }
+    .FreightWrapDispatch{
+     padding-left: 1rem;
+    }
+    .choiceWrap{
+      font-size: 0.8rem;
+    }
+    
+  }
+
+
+  /* -------------------------------------------------------------------------------------------------------------- */

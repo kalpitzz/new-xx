@@ -1,0 +1,119 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.navButton {
+  padding: 0.5rem;
+  width: 8rem;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.navheader {
+  display: flex;
+  /* width: 100%; */
+}
+
+.materialTable {
+  position: relative;
+}
+
+.active {
+  border-bottom: 4px solid #3288e6;
+}
+.addnew {
+  display: flex;
+  align-items: center;
+  background-color: #3a8ce7;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0rem 1rem 1rem 1rem;
+  border-radius: 5px;
+}
+
+.addnewModel {
+  z-index: 45;
+  width: 8rem;
+}
+
+.materialTable tbody tr:hover {
+  background-color: #3a8ce7 !important;
+}
+
+.mytable {
+  width: 100%;
+}
+@media only screen and (max-width: 760px),
+  (min-device-width: 320px) and (max-device-width: 768px) {
+  /* .mytable table,
+  thead,
+  tbody th,
+  tr {
+    display: block !important;
+  } */
+  /* .mainmodel {
+    transform: translateX(-65%);
+  } */
+  /* Hide table headers (but not display: none;, for accessibility) */
+  .mytable table thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  .mytable table td {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+  }
+
+  .mytable table tbody tr {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 10px 20px 10px 1px;
+    background-color: #dbefee;
+    color: black;
+    overflow-wrap: anywhere;
+    box-shadow: 0px 1px 10px 1px whitesmoke;
+    width: 100%;
+    display: block;
+  }
+
+  .mytable Table tbody td:nth-of-type(1)::before {
+    white-space: pre-wrap;
+    content: 'Serial Number';
+  }
+  .mytable Table tbody td:nth-of-type(2)::before {
+    white-space: pre-wrap;
+    content: 'Carrier';
+  }
+  .mytable Table tbody td:nth-of-type(3):before {
+    white-space: pre-wrap;
+    content: 'Status';
+  }
+  .mytable Table tbody td:nth-of-type(4):before {
+    white-space: pre-wrap;
+    content: 'VIN';
+  }
+  .mytable Table tbody td:nth-of-type(5):before {
+    white-space: pre-wrap;
+    content: 'Model';
+  }
+  .mytable Table tbody td:nth-of-type(6):before {
+    white-space: pre-wrap;
+    content: 'Make';
+  }
+  .mytable Table tbody td:nth-of-type(7):before {
+    white-space: pre-wrap;
+    content: 'Purchased Year';
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .mytable table tbody tr {
+    width: 75% !important;
+  }
+}

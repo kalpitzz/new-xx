@@ -1,0 +1,133 @@
+.summeryLoadDetail {
+  display: flex;
+  justify-content: space-between !important;
+  flex-wrap: wrap !important;
+}
+
+.summaryNavBar {
+  margin: 0 1rem !important;
+}
+
+.summaryArrowDiv {
+  display: flex;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+.summaryArrowMainDiv {
+  display: flex;
+  align-items: center;
+}
+
+.summaryArrowDiv p {
+  font-weight: 500;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  width: -webkit-fill-available;
+  color: #1a1000;
+}
+
+.summaryCancelButton {
+  background-color: white !important;
+  font-size: 0.8rem;
+  border-radius: 10px !important;
+  width: max-content !important;
+  margin: 1rem !important;
+}
+.summaryArrow {
+  border: 1px solid rgba(141, 141, 141, 0.87) !important;
+  padding: 0.5rem 0.8rem !important;
+  border-radius: 50% !important;
+  margin-right: 1rem !important;
+  color: #3288e6 !important;
+  cursor: pointer !important;
+  min-width: 2rem !important;
+}
+.editCancelLoadDiv {
+  display: flex;
+}
+
+.bxCheck {
+  color: #5f5c5c !important;
+  font-size: 1.5rem !important;
+  margin-right: 1px !important;
+}
+.Tabs div {
+  padding: 0 !important;
+  overflow-x: scroll !important;
+  margin-bottom: -1rem !important;
+}
+
+#previewstatus {
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin: 0px 1rem;
+  width: max-content;
+  text-transform: capitalize;
+}
+.avail {
+  background-color: #05a115e3;
+  color: #046c0e;
+}
+/* .reject {
+  background-color: rgb(231, 161, 161);
+  color: red;
+} */
+.inDraft {
+  background-color: #bfbfbf;
+  color: #797979;
+}
+.dispatch {
+  background-color: #f7815b;
+  color: #ad4525;
+}
+
+.arrived_at_pick_up {
+  background-color: #f1a054;
+  color: #c7500c;
+}
+.picked_up {
+  background-color: #ffce52;
+  color: #886c12;
+}
+.arrived_at_delivery {
+  background-color: #dbd206;
+  color: #7e7307;
+}
+.delivered {
+  background-color: #79cc52;
+  color: #2f7817;
+}
+.cancel {
+  background-color: #8a8a8a;
+  color: #484848;
+}
+.accepted {
+  background-color: #77adff;
+  color: #0362b9;
+}
+
+@media only Screen and (max-width: 550px) {
+  .editCancelLoadDiv button {
+    /* background-color: red !important; */
+    margin: 0.5rem !important;
+    padding: 0.5rem !important;
+    font-size: 0.8rem;
+  }
+  .summaryArrowMainDiv {
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+  }
+  .summaryArrow {
+    padding: 0.3rem 0.4rem !important;
+    margin-right: 0.5rem !important;
+  }
+  .summaryArrowMainDiv p {
+    font-size: 1.3rem;
+  }
+  #previewstatus {
+    padding: 0.3rem 0.5rem;
+    margin: 0;
+  }
+}

@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  min-height: 2rem;
+  width: 100%;
+}
+
+.Label {
+  font-size: 1rem;
+  font-weight: 500;
+  width: 40%;
+  margin-right: 4%;
+}
+
+.Details {
+  font-size: 0.95rem;
+  width: 60%;
+}
+
+.viewButton {
+  font-size: 0.9rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.viewButton i {
+  font-size: 1.2rem;
+  margin-right: 0.2rem;
+}
+
+@media (max-width: 912px) {
+  .Wrap {
+    width: 100%;
+    min-width: 16rem;
+    padding: 0.7rem 0;
+  }
+
+  .Label {
+    width: 50%;
+    font-size: 0.9rem;
+    min-width: 8rem;
+  }
+  .Details {
+    font-size: 0.88rem;
+    min-width: 8rem;
+    width: 50%;
+  }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "carrier": "Thoughtbeat",
+    "status": "Lutz",
+    "vin": "JHMZF1C65DS607449",
+    "model": "Mazdaspeed6",
+    "make": "Mazda",
+    "purchase_year": 2007
+  },
+  {
+    "id": 2,
+    "carrier": "Zoomlounge",
+    "status": "Brattan",
+    "vin": "WAUAH74FX9N302977",
+    "model": "Daewoo Kalos",
+    "make": "Pontiac",
+    "purchase_year": 2006
+  },
+  {
+    "id": 3,
+    "carrier": "Voonder",
+    "status": "Gove",
+    "vin": "1FTWW3DY2AE635183",
+    "model": "FX",
+    "make": "Infiniti",
+    "purchase_year": 2007
+  },
+  {
+    "id": 4,
+    "carrier": "Voomm",
+    "status": "Zanotti",
+    "vin": "YV4952CF3D1470184",
+    "model": "X5 M",
+    "make": "BMW",
+    "purchase_year": 2010
+  },
+  {
+    "id": 5,
+    "carrier": "Teklist",
+    "status": "Sancto",
+    "vin": "WAUWFBFL2CA633214",
+    "model": "626",
+    "make": "Mazda",
+    "purchase_year": 1986
+  },
+  {
+    "id": 6,
+    "carrier": "Dynava",
+    "status": "Larcombe",
+    "vin": "WBSDE93402C289106",
+    "model": "S4",
+    "make": "Audi",
+    "purchase_year": 1992
+  },
+  {
+    "id": 7,
+    "carrier": "Flashdog",
+    "status": "Chawner",
+    "vin": "WBA3B1C55F5515377",
+    "model": "Lumina APV",
+    "make": "Chevrolet",
+    "purchase_year": 1992
+  },
+  {
+    "id": 8,
+    "carrier": "Livepath",
+    "status": "Savill",
+    "vin": "1G6DE8E5XC0200445",
+    "model": "LTD Crown Victoria",
+    "make": "Ford",
+    "purchase_year": 1989
+  },
+  {
+    "id": 9,
+    "carrier": "Babblestorm",
+    "status": "Pounsett",
+    "vin": "1G6DH5E50D0057609",
+    "model": "Montero Sport",
+    "make": "Mitsubishi",
+    "purchase_year": 2003
+  },
+  {
+    "id": 10,
+    "carrier": "Avavee",
+    "status": "Guice",
+    "vin": "1G6DJ5E38D0708889",
+    "model": "Sonic",
+    "make": "Chevrolet",
+    "purchase_year": 2012
+  }
+]

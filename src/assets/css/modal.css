@@ -1,0 +1,32 @@
+.modal {
+  margin-top: 40vh;
+  margin-right: 5vw;
+  background-color: #11101d;
+  color: white;
+  line-height: 250%;
+  margin-left: calc(var(--sidebar-width-close) + (5vw));
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.modal button {
+  height: 30px;
+  width: 120px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  z-index: 150;
+}
+
+/*------------------ ipad view and mobile view---------- */
+
+@media only screen and (max-width: 1000px) {
+  .modal {
+    margin-top: 40vh;
+    margin-right: 5vw;
+    margin-left: 5vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+}

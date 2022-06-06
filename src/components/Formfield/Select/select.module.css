@@ -1,0 +1,17 @@
+#addNewButtonWrap{
+    background-color: #fff;
+    color: #3288e6;
+    border: 1px solid var(--border);
+    padding: 0.6rem;
+    font-weight: 500;
+    border-radius: 0.6rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top:2%;
+}
+
+#addNewButtonWrap i {
+    font-size: 1.2rem;
+  }

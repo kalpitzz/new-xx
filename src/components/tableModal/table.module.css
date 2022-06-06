@@ -1,0 +1,18 @@
+.editModel {
+  position: absolute;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: white;
+  z-index: 1;
+  width: 8rem;
+  box-shadow: 1px 1px 10px 0.5px grey;
+}
+
+@media (max-width: 912px) {
+  .editModel {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    padding: 0.5rem 1rem;
+  }
+}

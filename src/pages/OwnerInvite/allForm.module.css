@@ -1,0 +1,137 @@
+#Wrap {
+  margin: 1rem auto 0 auto;
+  border-radius: 0.75rem;
+  background-color: #ffffff;
+  border: 1px solid rgba(26, 16, 0, 0.1);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+#formikWrap {
+  display: grid;
+  width: 50%;
+  row-gap: 0.6rem;
+  position: relative;
+}
+
+#outerWrap p {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.275rem;
+  margin-bottom: 0.8rem;
+  opacity: 90%;
+}
+#outerWrap {
+  border: 1px solid rgba(26, 16, 0, 0.1);
+  padding: 1rem;
+  border-radius: 0.8rem;
+}
+
+.inputStyle {
+  width: 17rem;
+  height: 2.3rem;
+}
+
+.inputWrap {
+  width: 35%;
+  min-width: 26rem;
+  margin: 0 auto 1rem 1.3rem;
+}
+
+#line {
+  background-color: rgba(26, 16, 0, 0.1);
+  height: 1px;
+  margin: 0.2rem 0 1.5rem 0;
+}
+
+#buttonWrap {
+  width: 100%;
+  background-color: #efeff2;
+  height: 3rem;
+  border-radius: 10px;
+  margin: auto 0 2rem 0;
+  position: absolute;
+  bottom: -2%;
+  left: 0;
+  margin-bottom: 1.5rem;
+}
+
+.phoneWrap {
+  width: 20rem;
+}
+@media only screen and (max-width: 1286px) {
+  .phoneWrap {
+    width: 15rem;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .phoneWrap {
+    width: 27rem;
+  }
+}
+
+@media (max-width: 696px) {
+  .phoneWrap {
+    width: 24rem;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .phoneWrap {
+    width: 100%;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+  }
+}
+
+#buttonWrap button:nth-of-type(2) {
+  background-color: #3288e6;
+  outline: none;
+  border: none;
+  padding: 0.3em 1em;
+  color: white;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  width: 7rem;
+}
+
+#buttonWrap button:nth-of-type(1) {
+  background-color: white;
+  outline: none;
+  border: 1px solid black;
+  padding: 0.3em 1em;
+  color: black;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  width: 7rem;
+}
+
+#twoButtonWraps {
+  width: 16rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+}
+#title i {
+  border: 1px solid rgba(141, 141, 141, 0.87);
+  padding: 0.7rem 0.8rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+  color: #3288e6;
+  cursor: pointer;
+}
+@media (max-width: 912px) {
+  #formikWrap {
+    width: 100%;
+  }
+}

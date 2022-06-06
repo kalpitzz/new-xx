@@ -1,0 +1,1113 @@
+#title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+  }
+  
+  #title h2 {
+    font-size: 1.4rem;
+  }
+
+  #title p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    background-color: #ababab;
+    padding: 0.6rem;
+    border-radius: 0.7rem;
+    margin-left: 2rem;
+    color: #ffffff;
+  }
+  #title i {
+    border: 1px solid rgba(141, 141, 141, 0.87);
+    padding: 0.7rem 0.8rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    color: #3288e6;
+    cursor: pointer;
+    background-color: #ffffff;
+  }
+
+  #outerWrap {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(5.5rem, auto);
+    grid-template-areas:
+      'header header'
+      'choose choose'
+      'freight freight'
+      'shipper consignee'
+      'additional additional'
+      'charges charges'
+    
+  }
+
+  .header {
+    grid-area: header;
+  }
+
+  .choose{
+      grid-area: choose;
+  }
+
+  .freight{
+    grid-area: freight;
+  }
+
+  .shipper{
+    grid-area: shipper;
+  }
+  .consignee{
+    grid-area: consignee;
+  }
+  .additional{
+    grid-area: additional;
+  }
+
+  .charges{
+    grid-area: charges;
+  }
+
+
+
+  .card {
+    background-color: #ffffff;
+    /* border: 1.4px solid var(--border); */
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+
+  /* .headerWrap h3 { 
+   margin-bottom: 0.4rem;
+  } */
+  .choiceWrap {
+    display: grid;
+    grid-template-columns: 0.47fr;
+    grid-row-gap: 0.7rem;
+    margin-top: 0.5rem;
+   
+  }
+
+  .choiceWrap h4{
+    letter-spacing: 1.7px;
+    font-size: 1.1rem;   
+  }
+
+  .headerWrap h3{
+    letter-spacing: 1.7px;
+  }
+
+  .headerWrap p {
+      font-size: .9rem;
+      font-weight: 500;
+  }
+
+  .carrierWrap{
+    position: relative;
+  }
+  /* .carrierMessage{
+    position: absolute;
+    right: 15px;
+    bottom: -30%;
+    font-size: 0.75rem;
+    color: #28b52f;
+    letter-spacing: 2px;
+    font-weight: 500;
+
+  } */
+
+  .hr {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.7rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+
+  #choiceSlider{
+      display: flex;
+      justify-content: space-between;
+      width: 36rem;
+      align-items: center;
+     
+  }
+ .additionalWrap{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 6.5rem;
+ }
+
+
+
+  #dropTrailer{
+    display: flex;
+    justify-content:space-between ;
+    max-width: 8rem;
+    margin-bottom: 1rem;
+    
+  }
+
+  #slider{
+      width: fit-content;
+      background-color: #f4f4f6;
+      border-radius: 0.5rem;
+      padding: 0.2rem;
+  }
+
+  #slider button{
+      width: 7rem;
+      padding: .5rem;
+      border-radius: 0.5rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+      transition: 1s;
+
+  }
+
+  .active{
+    background-color: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .line{
+   height:1px ;
+   background-color: var(--border);
+   margin-top: 1.5rem;
+   margin-bottom: 1.5rem;
+  }
+
+  .fieldWrapFull {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+    grid-row-gap: 0.8rem;
+  }
+  .freightWrapGrid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    grid-row-gap: 0.8rem;
+  }
+  .freightWrapGrid2{
+    display: grid;
+    grid-template-columns: .85fr 1.8fr;
+    column-gap: 3rem;
+    grid-row-gap: 0.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .freightWrap{
+    border: 1px solid var(--border);
+    padding: 1rem .5rem;
+    border-radius: .6rem;
+    margin-bottom: 1rem;
+  }
+  #freightLabel{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #ababab;
+    border-bottom: 1px solid var(--border);
+  }
+  .mutipleField input{
+    border: 1px solid rgba(26, 16, 0, 0.1);
+    border-radius: .3rem;
+    font-size: 1rem;
+    padding: 0.6rem 0.6rem 0.6rem .9rem ;
+    letter-spacing: 1.3px;
+    width: 12rem;
+    margin-right: .4rem;
+  }
+
+  .dimension input{
+    border: 1px solid rgba(26, 16, 0, 0.1);
+    border-radius: .3rem;
+    font-size: 1rem;
+    padding: 0.6rem 0.6rem 0.6rem .9rem ;
+    letter-spacing: 1.3px;
+    width: 3.7rem;
+    margin-right: .4rem;
+  }
+
+  .mutipleField label , .dimension label{
+
+    font-weight: 500;
+  }
+
+  .mutipleField select, .dimension select{
+    border: 1px solid rgba(26, 16, 0, 0.1);
+    border-radius: .3rem;
+    font-size: 1rem;
+    padding: 0.6rem;
+    letter-spacing: 1.3px;
+    width: 7.7rem ;
+  }
+  .mutipleField{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .dimension{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .customFieldStyle{
+    width: 14rem;
+  }
+  /* .dimension{
+    width: 38.2rem;
+  } */
+  /* .commentWrap{
+    width: 25.5rem;
+  }
+  .commentField{
+    width: 14.3rem;
+  } */
+  
+  #Button{
+    display: flex;
+    align-items:center ;
+    letter-spacing: 1.5px;
+    font-size: 0.9rem;
+    color:white;
+    background-color: #3288e6;
+    padding: .2rem .4rem;
+    font-weight: 400;
+    text-align: center;
+    border-radius: .4rem;
+    /* border: 1px solid #3288e6; */
+    margin: 0 2rem 0 auto;
+    margin-top: 1rem;
+  
+}
+
+#SaveButton{
+  /* display: flex;
+  align-items:center ; */
+  letter-spacing: 1.5px;
+  font-size: .8rem;
+  color:var(--white);
+  background-color:#3288e6;
+  padding: .5rem 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  border-radius: .45rem;
+  /* margin: 0 2rem 0 auto; */
+  
+}
+
+.popupForm{
+  border: 1px solid var(--border);
+  padding: 1rem;
+  border-radius: .6rem;
+  margin-top: 1rem;
+  padding-top: 3rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: .3rem;
+}
+.popupCard{
+  border: 1px solid var(--border);
+  padding: 1rem;
+  border-radius: .6rem;
+  margin-top: 1rem;
+  position: relative;
+  display: grid;
+  row-gap: 1rem;
+}
+.popupCard span{
+ font-weight: 500;
+ margin-right: .3rem;
+}
+
+.popupCard_wrap{
+  display: grid;
+  grid-template-columns: .9fr 1.2fr .5fr;
+  
+}
+
+.closeButton{
+    position: absolute;
+    top:10px;
+    right: -20px;
+    color: #787878;
+    padding: .2rem .35rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 2rem 0 auto;  
+}
+
+.closeButtonForm{
+  /* position: absolute;
+    top:10px;
+    right: -20px; */
+    border: 1px solid #3288e6;
+    color:#3288e6;
+    padding: .2rem .5rem .2rem .3rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin: 0 2rem 0 auto;
+    display: flex;
+    align-items: center; 
+    font-weight: 600;
+}
+.closeButtonForm i {
+margin-right: 0.3rem;
+}
+
+.saveDeleteWrap{
+  display: flex;
+  align-items: center;
+  width: 60%;
+  margin:  0 2rem 0 auto;
+  justify-content: right;
+
+}
+
+.buttonTr td button{
+  background-color: #3288e6 !important;
+}
+.map{
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+}
+
+.editButton{
+  position: absolute;
+  top:10px;
+  right: 20px;
+  color:#787878;
+  padding: .2rem .35rem;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 2rem 0 auto;  
+}
+
+#buttonWrap{
+ 
+  width: 23rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+#mapSection div{
+  display: none;
+}
+
+#base {
+  position: relative;
+  background-color: #fafafb;
+}
+
+.phoneStyle {
+  width: 20rem !important;
+}
+
+.popUp {
+  background-color: rgb(41, 41, 41, 0.4);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 0.8rem;
+  width: 100%;
+  height: 100%;
+  margin: 5rem auto 0 auto;
+  position: absolute;
+  top: 0;
+}
+#buttonSection{
+  background-color:#efeff2;
+  padding: 1rem 0;
+  border-radius: .5rem;
+  margin-top: 0.5rem;
+}
+
+#buttonWraper{
+  font-size: 1rem;
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+#buttonWraper button:nth-of-type(2){
+  background-color: white;
+  padding: .6rem .8rem;
+  width: 9rem;
+  border-radius: .6rem;
+  color: #3288e6;
+  border:1px solid var(--border);
+  font-weight: 500;
+}
+#buttonWraper button:nth-of-type(3){
+  background-color:#3288e6;
+  padding: .6rem .8rem;
+  width: 9rem;
+  border-radius: .6rem;
+  color: white;
+  font-weight: 500;
+}
+#buttonWraper button:nth-of-type(1){
+  background-color:white;
+  padding: .6rem .8rem;
+  width: 9rem;
+  border-radius: .6rem;
+  color: #616161;
+  border:1px solid var(--border);
+  font-weight: 500;
+}
+
+
+.pickUpLocation_wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.pickUpLocation_fieldWrap{
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: .3rem;
+  width: 20rem;
+}
+
+.pickUpLocation_fieldWrap input{
+ padding: .5rem;
+ font-size: 1rem;
+}
+
+.pickUpLocation_wrap label{
+ font-weight: 500;
+}
+
+.dateTime{
+  display: flex;
+  justify-content: space-between;
+
+}
+.dateTime label{
+  font-weight: 500;
+}
+.dateTimeField{
+  width: 20rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: .5rem;
+  border: 1px solid var(--border);
+  border-radius: .6rem;
+  padding: .4rem;
+  margin: .3rem 0;
+  position: relative;
+}
+
+.dateTimeWrap{
+  display: flex;
+  flex-direction: column;
+}
+
+.dateTimeWrap input{
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.dateAndTime{
+  font-size: .8rem;
+}
+.dateAndTime span{
+  font-size: .9rem;
+}
+
+.yupValidation{
+  position: relative;
+}
+
+.errorStyle{
+  border:1px solid red ;
+}
+
+/* ----------------------------------------------------- */
+#outerWrapGrid{
+  display: grid;
+  grid-template-columns: 1.7fr .5fr;
+  column-gap: 1.5rem;
+
+}
+
+#chargesFieldWrap{
+  /* border: 1px solid var(--border); */
+  border-radius: 0.8rem;
+  padding: 1rem;
+  overflow-x: scroll;
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+ 
+}
+
+#mileSection{
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+  padding: 1rem; 
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#mileWrap{
+  margin-top: .5rem;
+}
+
+#mileWrap input{
+  text-align: center;
+  border: 1px solid var(--border);
+  padding: .5rem;
+  font-size: 1rem;
+  margin-left: .2rem;
+  border-radius: 0.3rem;
+}
+
+#header{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #dedede;
+  padding: .7rem .4rem;
+  font-size: .8rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: .5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+#submitButton{
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 12rem;
+  border-radius: .3rem;
+  margin: 2rem auto 0 auto;
+}
+
+.FieldWrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.TotalWrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1rem;
+}
+
+.accessorialWrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  column-gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+#deleteButtonWrap{
+  display: grid;
+  grid-template-columns: 1.8fr 0.2fr;
+  width: 100%;
+}
+#deleteButtonWrap{
+  margin: 0 auto;
+}
+
+#deleteButton{
+  background-color:#ffffff ;
+  font-size: 1rem;
+  color:#9e9e9e;
+  padding: .2rem;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 0.3rem;
+
+}
+
+.FieldWrap input{
+text-align: center;
+border: 1px solid var(--border);
+padding: .5rem;
+font-size: 1rem;
+border-radius: 0.5rem;
+}
+
+.TotalWrap input{
+  text-align: center;
+  border: 1px solid var(--border);
+  padding: .5rem;
+  font-size: 1rem;  
+  border-radius: 0.5rem;
+}
+
+.FieldWrap label{
+display: flex;
+align-items: center;
+padding: .5rem;
+padding-left: 2rem;
+/* border: 1px solid var(--border); */
+font-size: 1rem;
+width: 100%;
+}
+
+.TotalWrap label{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: .5rem;
+  font-size: 1rem;
+
+}
+.accessorialWrap label{
+  display: flex;
+  align-items: center;
+  padding: .5rem;
+padding-left: 2rem;
+/* border: 1px solid var(--border); */
+font-size: 1rem;
+width: 100%;
+}
+
+.FieldWrap select{
+  text-align: center;
+  border: 1px solid var(--border);
+  padding: .5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+.accessorialWrap input{
+  text-align: center;
+  border: 1px solid var(--border);
+  padding: .5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+.accessorialWrap select{
+  text-align: center;
+  border: 1px solid var(--border);
+  padding: .5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+#addnewButton{
+  background-color: #3288e6;
+  display: flex;
+  align-items:center ;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
+  /* border: 1px solid 
+  #3288e6; */
+  color: #fff;
+  padding: .3rem;
+  border-radius: .5rem;
+  font-weight: 400;
+  width: 100%;
+}
+
+#addButtonWrap{
+ width: 28%;
+ margin-bottom: 2rem;
+}
+
+#chargesInnerFieldWrap{
+  width: 64.3rem;
+
+}
+
+.milesFieldWrap{
+  position: relative;
+  margin-bottom: 2rem;
+}
+.milesFieldWrap input{
+  width: 96%;
+}
+
+#accessorial_add_new{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background-color: #3288e6; */
+  top:0;
+  left: 0;
+}
+
+.box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 35rem;
+  background-color: white;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.boxWrap{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 0.5rem;
+    
+}
+.boxWrap input{
+ outline: 1px solid #616161;
+}
+.boxWrap label{
+    font-size: 1.1rem;
+    color: #616161;
+    font-weight: 600;
+}
+.boxWrap textarea{
+outline: 1px solid #616161;
+}
+
+
+
+input[type='radio'] {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  }
+
+
+
+.box h2{
+   color: #616161;
+   margin-bottom:0.7rem;
+}
+#add_option_button{
+  background-color: #3288e6;
+  color: #fff;
+  width: 7rem;
+  margin: 1rem auto 0 auto;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+}
+#close_add_option{
+  width: fit-content;
+  border-radius: 50%;
+  color:#3288e6;
+  cursor: pointer;
+  position: absolute;
+  right: 0.8rem;
+  top:0.5rem;
+  border: 1px solid #3288e6;
+}
+.total_amount_field input{
+  width: 100%;
+}
+
+.total_amount_field{
+  position: relative;
+}
+
+.total_amount_error{
+  position: absolute;
+  font-size: 0.7rem;
+  bottom: -10%;
+  width: 10.6rem;
+  background-color: #fff;
+  text-align: center;
+  left: 18%;
+  color: red;
+}
+
+.milesType{
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  width: 8rem;
+  justify-content: space-between;
+}
+
+#optionStyle option{
+  font-size: 1.1rem;
+  padding: 0.8rem 0;
+  color: #787878;
+  text-align: center;
+}
+
+#optionStyle :last-child{
+  background-color: #3288e6;
+  color: #ffffff;
+}
+
+
+
+
+
+
+@media (max-width: 912px) {
+  #outerWrapGrid{
+      grid-template-columns: 1fr;
+      row-gap: 1.5rem;
+  }    
+
+ 
+}
+/* ------------------------------------------------------- */
+@media (max-width:730px) {
+  #choiceSlider{
+    width: 100%;
+  }
+
+  .choiceWrap{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:1286px) {
+  .mutipleField input{
+    width: 9.5rem;
+  }
+
+  .mutipleField select,.dimension select{
+    width: 5rem;
+  }
+
+  .dimension input{
+   width: 2.9rem;
+  }
+  .pickUpLocation_fieldWrap{
+    width: 15rem;
+  }
+  .dateTimeField{
+    width: 15rem;
+  }
+  .phoneStyle {
+    width: 15rem !important;
+  }
+}
+
+@media (max-width: 912px) {
+
+  #outerWrap {
+   grid-template-columns: 1fr;
+    grid-template-areas:
+      'header '
+      'choose'
+      'freight'
+      'shipper'
+      'consignee'
+      'additional'
+      'charges'
+
+  }
+  .popUp {
+    width: 100%;
+    margin: 5rem auto 0 auto;
+  }
+  .fieldWrapFull {
+    grid-template-columns: 1fr;
+  
+  }
+
+  .freightWrapGrid1{
+
+    grid-template-columns: 1fr;
+ 
+  }
+  .freightWrapGrid2{
+  
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .pickUpLocation_fieldWrap input{
+    font-size: 1rem;
+  }
+  .mutipleField input{
+    width: 18.5rem;
+  }
+
+  .mutipleField select,.dimension select{
+    width: 8rem;
+  }
+
+  .dimension input{
+   width: 5.9rem;
+  }
+
+  .pickUpLocation_fieldWrap{
+    width: 27rem;
+  }
+  .dateTimeField{
+    width: 27rem;
+  }
+  .phoneStyle {
+    width: 27rem !important;
+  }
+
+  .additionalWrap{
+    grid-template-columns: 1fr;
+
+  }
+}
+
+@media (max-width: 696px) {
+  .mutipleField input{
+    width: 17.5rem;
+  }
+  .pickUpLocation_fieldWrap input{
+    font-size: 1rem;
+  }
+
+  .mutipleField select,.dimension select{
+    width: 6rem;
+  }
+
+  .dimension input{
+   width: 5.6rem;
+  }
+
+  .pickUpLocation_fieldWrap{
+    width: 24rem;
+  }
+  .dateTimeField{
+    width: 24rem;
+  }
+  .phoneStyle {
+    width: 24rem !important;
+  }
+}
+@media (max-width: 625px) {
+
+  .mutipleField{
+    display: block;
+  }
+  .dimension{
+    display: block;
+  }
+ 
+  .mutipleField input{
+    width: 48%;
+   margin: 0;
+  }
+
+  .phoneStyle {
+    width: 100% !important;
+  }
+
+  .mutipleField select{
+    width: 48%;
+  }
+
+ .dimension select{
+    width: 100%;
+  }
+
+  .dimension input{
+   width: 31%;
+   margin: 0;
+  }
+
+  .dimensionWraper{
+    display: flex;
+  }
+
+  .twoFieldWrap{
+    display: flex;
+    justify-content: space-between;
+  }
+  .pickUpLocation_wrap{
+    flex-direction: column;
+  }
+  .pickUpLocation_fieldWrap{
+    width: 100%;
+   
+  }
+
+  .pickUpLocation_fieldWrap input{
+    font-size: 1rem;
+  }
+
+  .dateTime{
+    flex-direction: column;
+  }
+
+  #choiceSlider{
+    display: block;
+  }
+
+  .dateTimeField{width: 100%;}
+
+  .popupForm{
+    display: block;
+  }
+
+  #buttonWraper{
+    font-size: 0.8rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  #buttonWraper button{
+    padding: .4rem .2rem;
+    width: 29% ;
+    font-size: 0.7rem;
+    border-radius: .2rem;
+
+  }
+
+  #buttonWraper button:nth-of-type(2){
+    padding: .6rem .8rem;
+    width: 28%;
+    border-radius: .6rem;
+
+  }
+  #buttonWraper button:nth-of-type(3){
+    padding: .6rem .8rem;
+    width: 28%;
+    border-radius: .6rem;
+  }
+  #buttonWraper button:nth-of-type(1){
+    padding: .6rem .8rem;
+    width: 28%;
+    border-radius: .6rem;
+  }
+}
+
+@media (max-width: 500px) {
+
+  /* .twoFieldWrap{
+    display: flex;
+    flex-direction: column;
+  } */
+ .card{
+   padding: 0.7rem;
+ }
+ #Button{
+   width: 100%;
+   margin-top: 0.4rem;
+ }
+  #buttonWraper{
+    font-size: 0.8rem;
+    width: 95%;
+    margin: 0 auto;
+  }
+  #buttonWraper button:nth-of-type(2){
+    padding: .6rem .8rem;
+    width: 30%;
+    border-radius: .6rem;
+
+  }
+  #buttonWraper button:nth-of-type(3){
+    padding: .6rem .8rem;
+    width: 30%;
+    border-radius: .6rem;
+  }
+  #buttonWraper button:nth-of-type(1){
+    padding: .6rem .8rem;
+    width: 30%;
+    border-radius: .6rem;
+  }
+}
+
+
+
+

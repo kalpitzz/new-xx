@@ -1,0 +1,72 @@
+.notifications .icon .image {
+  width: 36px !important;
+  height: 36px !important;
+}
+.notifications {
+  position: relative;
+}
+.notifications .container {
+  margin-top: 20px;
+  border-radius: 20px;
+  transition-duration: 0.7s;
+  right: 20px;
+  background: #11101D;
+ 
+}
+
+.notifications .container .header {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  padding-top: 15px;
+  margin-bottom: 10px;
+  background: #11101D;
+ 
+}
+.notifications .container .header .header-title{
+  color:white;
+}
+.notifications .container .header .header-option{
+  color:white;
+  
+}
+.notifications .message .time{
+  text-align: end;
+}
+
+.notifications .container .items {
+  width: 100% !important;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.notifications .container .items .card {
+  margin-bottom: 15px;
+  padding: 7px;
+  border-radius: 15px;
+  background: rgb(255, 252, 252);
+  width: 100%;
+  position: relative;
+}
+.notifications .container .items .card .card-link .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.notifications .container .items .card .card-link .content .message {
+  width: 100%;
+  padding-left: 30px;
+}
+
+/* responsive mobile css */
+@media only screen and (max-width: 1300px) {
+  .notifications .container {
+    right: -15px;
+    width: 360px !important;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .notifications .container {
+    width: 300px !important;
+  }
+}

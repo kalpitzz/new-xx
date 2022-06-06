@@ -1,0 +1,34 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: var(--txt-color);
+}
+
+.layout__content-main {
+  padding: 30px;
+  margin-left: var(--sidebar-width-close);
+  z-index: 0;
+}
+.header_div {
+  margin-left: var(--sidebar-width-close);
+}
+
+/*------------------ ipad view and mobile view---------- */
+
+@media only screen and (max-width: 1000px) {
+  .layout__content-main {
+    margin-left: 0px;
+    flex-direction: column;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .header_div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+}

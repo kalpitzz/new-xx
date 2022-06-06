@@ -1,0 +1,273 @@
+#line {
+  background-color: rgba(26, 16, 0, 0.1);
+  height: 1px;
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+#outerWrap {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#Wrap {
+  border: 2px solid rgba(26, 16, 0, 0.1);
+  border-radius: 1rem;
+  padding: 2rem 4rem 2rem 2rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+}
+.fieldWrap {
+  width: 76.3%;
+}
+
+#header {
+  font-size: 1.07rem;
+  font-weight: 600;
+}
+
+#profileWrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 0.6rem;
+  column-gap: 5rem;
+}
+.assign {
+  width: 47%;
+}
+.checkbox {
+  width: 47%;
+}
+.label {
+  font-size: 1rem;
+}
+
+#addressWrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 0.6rem;
+  column-gap: 5rem;
+}
+
+#addressLineWrap {
+  width: 100%;
+}
+
+#buttonWrap {
+  width: 100%;
+  background-color: #efeff2;
+  padding: 0.6rem 0 0.6rem 0;
+  border-radius: 10px;
+}
+
+#buttonWrap button:nth-of-type(2) {
+  background-color: #3288e6;
+  outline: none;
+  border: none;
+  padding: 0.3em 1em;
+  color: white;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  width: 9rem;
+}
+
+#buttonWrap button:nth-of-type(1) {
+  background-color: white;
+  outline: none;
+  border: 1px solid black;
+  padding: 0.3em 1em;
+  color: black;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  width: 9rem;
+}
+
+#twoButtonWraps {
+  width: 19rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+}
+#title i {
+  border: 1px solid rgba(141, 141, 141, 0.87);
+  padding: 0.7rem 0.8rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+  color: #3288e6;
+  cursor: pointer;
+}
+
+.addressFieldWrap {
+  width: 78.8% !important;
+  text-align: right;
+  margin-bottom: 0.6rem;
+}
+
+.addressField {
+  width: 100% !important;
+}
+
+.wrapDetailsFields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 6rem;
+  row-gap: 0.6rem;
+  padding-right: 4rem;
+}
+
+.additionalDetailsFieldWrap {
+  display: flex;
+  flex-direction: column;
+}
+.dolarField {
+  padding: 0.6rem 0.6rem 0.6rem 1.6rem !important;
+  width: 20.5rem !important;
+}
+.fieldStyle {
+  width: 20.5rem !important;
+}
+
+@media (max-width: 1330px) {
+  .fieldStyle {
+    width: 17.5rem !important;
+  }
+  .dolarField {
+    width: 17.5rem !important;
+  }
+}
+
+@media (max-width: 1150px) {
+  #profileWrap {
+    grid-template-columns: 1fr;
+  }
+
+  .wrapDetailsFields {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  .fieldStyle {
+    width: 30rem !important;
+  }
+  .dolarField {
+    width: 30rem !important;
+  }
+
+  .addressField {
+    width: 30rem !important;
+  }
+
+  #addressOuterWrap {
+    grid-template-columns: 1fr;
+  }
+
+  #addressWrap {
+    grid-template-columns: 1fr;
+  }
+
+  .assign {
+    width: 100%;
+  }
+
+  .checkbox {
+    width: 70%;
+  }
+
+  #Wrap {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .fieldStyle {
+    width: 26rem !important;
+  }
+  .dolarField {
+    width: 26rem !important;
+  }
+
+  .addressField {
+    width: 26rem !important;
+  }
+
+  .checkbox {
+    width: 90%;
+  }
+}
+
+@media (max-width: 712px) {
+  .fieldStyle {
+    width: 21rem !important;
+  }
+
+  .dolarField {
+    width: 21rem !important;
+  }
+  .addressField {
+    width: 21rem !important;
+  }
+}
+
+@media (max-width: 626px) {
+  .fieldStyle {
+    width: 100% !important;
+  }
+
+  .dolarField {
+    width: 100% !important;
+  }
+
+  .addressFieldWrap {
+    width: 100%;
+  }
+
+  .addressField {
+    width: 100% !important;
+  }
+
+  .checkbox {
+    width: 90%;
+  }
+}
+
+@media (max-width: 430px) {
+  #buttonWrap button:nth-of-type(2) {
+    background-color: #3288e6;
+    outline: none;
+    border: none;
+    padding: 0.3em 1em;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    width: 6rem;
+  }
+
+  #buttonWrap button:nth-of-type(1) {
+    background-color: white;
+    outline: none;
+    border: 1px solid black;
+    padding: 0.3em 1em;
+    color: black;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    width: 6rem;
+  }
+
+  #twoButtonWraps {
+    width: 14rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+  }
+}

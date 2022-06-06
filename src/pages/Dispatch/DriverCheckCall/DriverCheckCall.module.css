@@ -1,0 +1,301 @@
+.RFS_StepContainer {
+  flex: 1;
+  position: relative;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 1rem;
+}
+.statusHeading {
+  overflow-x: scroll;
+}
+.cardMainDiv {
+  display: block !important;
+}
+.RFS_StepperContainer {
+  display: flex;
+  /* padding: 24px; */
+  align-items: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: row;
+  overflow: scroll;
+  /* border: 2px solid black; */
+  padding: 4rem 0rem;
+  /* border-radius: 10px; */
+}
+
+.DasStepper {
+  display: flex;
+  margin-top: -2rem;
+  align-items: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: row;
+  /* overflow: scroll;  */
+
+  border-radius: 10px;
+}
+.RFS_StepMain {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0.2rem;
+}
+.icon {
+  font-size: 1.1rem !important;
+  color: white;
+}
+.blink {
+  animation: icon 1.5s infinite;
+}
+.truckDisplay {
+  display: none;
+}
+
+.secondstep {
+  margin-top: -4.1rem;
+}
+
+.table {
+  width: 80%;
+  margin: 0 11% 0%;
+}
+.table thead {
+  background-color: transparent !important;
+}
+
+.table thead tr {
+  text-align: right !important;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.DriverCheckCallMainDiv {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.RFS_StepButton {
+  width: 1.5rem;
+  border: none;
+  cursor: pointer;
+  height: 1.5rem;
+  margin: 0.8rem 0 0 0;
+  display: flex;
+  padding: 0px;
+  font-size: 1em;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  background-color: #ffc000;
+  z-index: 1;
+}
+.RFS_LabelContainer {
+  width: max-content;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.RFS_Label {
+  display: block;
+  margin-top: 0.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.start {
+  background-color: rgb(50, 226, 14);
+  border-color: rgb(50, 226, 14) !important ;
+}
+.ontime {
+  background-color: rgb(50, 226, 14);
+  border-color: rgb(50, 226, 14) !important ;
+}
+.delay {
+  background-color: rgb(223, 33, 33);
+  border-color: rgb(223, 33, 33) !important ;
+}
+.truckBG {
+  width: 2rem;
+  border: none;
+  cursor: pointer;
+  height: 2rem;
+  margin: 0rem 0 0 0;
+  display: flex;
+  padding: 0 0.5rem;
+  font-size: medium;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  /* background-color: black; */
+}
+
+/* .RFS-Label-upper {
+  margin-top: 0px;
+  margin-bottom: 0.5rem;
+} */
+
+.RFS_ConnectorContainer {
+  top: calc((2.5em - 1px) / 2);
+  left: calc((-52% + 2em) - 8px);
+  right: calc((48% + 2em) - 8px);
+  position: absolute;
+  margin: 0.5rem 0 0 0;
+}
+.fordashboard_RFS_ConnectorContainer {
+  top: calc((2em - 1px) / 2);
+  left: calc((-75% + 2em) - 8px);
+  right: calc((25% + 2em) - 8px);
+  position: absolute;
+  margin: 0.5rem 0 0 0;
+}
+.RFS_Connector {
+  display: block;
+  border-color: #ffc000;
+  border-top-style: solid;
+  border-top-width: 8px;
+  border-radius: 10px;
+}
+
+.p {
+  font-weight: 900;
+}
+.expected {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid gray;
+  padding: 0rem 0.5rem 1rem 1rem;
+  margin-top: -1.3rem;
+}
+.actual {
+  padding: 0rem 0.5rem 0rem 1rem;
+  margin-top: -1.3rem;
+}
+.by {
+  border-right: 2px solid gray;
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  margin-top: -0.5rem;
+}
+.byDot {
+  border-radius: 50%;
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: gray;
+  display: inline-block;
+}
+.direction {
+  border: 2px solid gray;
+  background-color: transparent;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin: 0rem 0.8rem;
+  padding: 0.2rem 0.6rem;
+}
+.mapoutlined {
+  margin-bottom: -0.4rem;
+}
+
+.thead {
+  background-color: #eeeef0;
+}
+.thead tr {
+  text-align: center;
+}
+.thead tr td:nth-last-child(1) {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.thead tr td:nth-child(1) {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+@keyframes icon {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.mytable thead {
+  font-weight: 600;
+}
+.mytable tbody tr {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.formobile {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 500px) {
+  .direction {
+    margin: 0.3rem 0.8rem;
+  }
+  .fordashboard_RFS_ConnectorContainer {
+    top: calc((2em - 1px) / 2);
+    left: calc((-80% + 2em) - 8px);
+    right: calc((20% + 2em) - 8px);
+    position: absolute;
+    margin: 0.5rem 0 0 0;
+  }
+
+  .mytable {
+    min-width: 310px !important;
+  }
+  .mytable thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .mytable td {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    flex-wrap: wrap;
+  }
+
+  .mytable tbody tr {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 10px 20px 10px 1px;
+    background-color: #61616136;
+    color: black;
+    overflow-wrap: anywhere;
+    box-shadow: var(--box-shadow);
+    width: 100%;
+    display: block;
+  }
+
+  .mytable tbody td:nth-of-type(1)::before {
+    white-space: pre-wrap;
+    content: "From";
+  }
+  .mytable tbody td:nth-of-type(2)::before {
+    white-space: pre-wrap;
+    content: "To";
+  }
+  .mytable tbody td:nth-of-type(3):before {
+    white-space: pre-wrap;
+    content: "Total";
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .RFS_ConnectorContainer {
+    top: calc((2.5em - 1px) / 2);
+    left: calc((-80% + 2em) - 8px);
+    right: calc((20% + 2em) - 8px);
+    position: absolute;
+    margin: 0.5rem 0 0 0;
+  }
+}

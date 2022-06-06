@@ -1,0 +1,8 @@
+.errorDiv {
+  color: red;
+  position: absolute;
+  right: 2rem;
+  bottom: 0;
+  font-size: 0.7rem;
+  background-color: white;
+}

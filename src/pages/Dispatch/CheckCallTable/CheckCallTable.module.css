@@ -1,0 +1,183 @@
+.checkCallTableDiv {
+  display: block !important;
+}
+
+.driverCheckCall {
+  display: flex;
+  justify-content: space-between;
+}
+.contained {
+  background-color: #349eff !important;
+  color: white !important;
+  margin: 0 1rem !important;
+}
+
+.driverCheckCall Button {
+  border-radius: 10px !important;
+}
+
+.thead tr {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: gray;
+  line-height: 1.5;
+}
+.thead tr td {
+  text-transform: uppercase;
+}
+.tbody tr {
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.editButton {
+  font-size: 1.5rem;
+}
+.map_pin {
+  color: #7d7c7a;
+}
+
+.gioMap {
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.geoAddress{
+  background-color: #349eff;
+  color: #ffffff;
+  width:fit-content;
+  padding: 0.8rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  position: absolute;
+  z-index: 500;
+  top: 70%;
+  left: 25%;
+  letter-spacing: 1.7px;
+  display: flex;
+  align-items: center;
+}
+.geoAddress span{
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  font-size: 1.2rem;
+  color: black;
+  margin-right: 0.6rem;
+}
+@media only screen and (max-width: 1200px) {
+  .geoAddress span {
+    font-size: 0.8rem;
+  }
+  .geoAddress p {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 916px) {
+  .geoAddress {
+    left:0;
+    top: 70%;
+    padding: 0.3rem;
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    
+    }
+
+}
+@media only screen and (max-width: 760px),
+  (min-device-width: 320px) and (max-device-width: 768px) {
+  /* .mytable table,
+  thead,
+  tbody th,
+  tr {
+    display: block !important;
+  } */
+  /* .mainmodel {
+    transform: translateX(-65%);
+  } */
+  /* Hide table headers (but not display: none;, for accessibility) */
+ 
+  
+  .driverCheckCall button {
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+    width: max-content;
+  }
+
+  .driverButtonMainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mytable thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  .mytable {
+    min-width: 320px;
+  }
+
+  .mytable td {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+  }
+
+  .mytable tbody tr {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 10px 20px 10px 1px;
+    background-color: #61616136;
+    color: black;
+    overflow-wrap: anywhere;
+    box-shadow: var(--box-shadow);
+    /* width: 100%; */
+    display: block;
+  }
+
+  .mytable tbody td:nth-of-type(1)::before {
+    white-space: pre-wrap;
+    content: "Date";
+  }
+  .mytable tbody td:nth-of-type(2)::before {
+    white-space: pre-wrap;
+    content: "Location";
+  }
+  .mytable tbody td:nth-of-type(3):before {
+    white-space: pre-wrap;
+    content: "Updated By";
+  }
+  .mytable tbody td:nth-of-type(4):before {
+    white-space: pre-wrap;
+    content: "Unit No.";
+  }
+  .mytable tbody td:nth-of-type(5):before {
+    white-space: pre-wrap;
+    content: "Status";
+  }
+  .mytable tbody td:nth-of-type(6):before {
+    white-space: pre-wrap;
+    content: "Driver";
+  }
+  .mytable tbody td:nth-of-type(7):before {
+    white-space: pre-wrap;
+    content: "Geo Location";
+  }
+  .mytable tbody td:nth-of-type(8):before {
+    white-space: pre-wrap;
+    content: "Time Stamp";
+  }
+}
+/* 
+@media only screen and (max-width: 420px) {
+  .mytable tbody tr {
+    width: 80% !important;
+  }
+} */

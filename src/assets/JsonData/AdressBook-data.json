@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "role": "customer",
+    "companyName": "Akit Transport",
+    "contactName": "Ankit kumar",
+    "email": "ankit@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 2,
+    "role": "customer",
+    "companyName": "Ayush Transport",
+    "contactName": "Ayush Mishra",
+    "email": "ayush@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 3,
+    "role": "customer",
+    "companyName": "Mayank Transport",
+    "contactName": "Mayank Khushwah",
+    "email": "mayank@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 4,
+    "role": "customer",
+    "companyName": "kalpit Transport",
+    "contactName": "Kalpit jangid",
+    "email": "kalpith@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 5,
+    "role": "customer",
+    "companyName": "Bnkit Transport",
+    "contactName": "Ankit kumar",
+    "email": "ankit@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 6,
+    "role": "customer",
+    "companyName": "cyush Transport",
+    "contactName": "Ayush Mishra",
+    "email": "ayush@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 7,
+    "role": "customer",
+    "companyName": "dayank Transport",
+    "contactName": "Mayank Khushwah",
+    "email": "mayank@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 8,
+    "role": "customer",
+    "companyName": "ealpit Transport",
+    "contactName": "Kalpit jangid",
+    "email": "kalpith@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 9,
+    "role": "customer",
+    "companyName": "fnkit Transport",
+    "contactName": "Ankit kumar",
+    "email": "ankit@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 10,
+    "role": "driver",
+    "companyName": "gyush Transport",
+    "contactName": "Ayush Mishra",
+    "email": "ayush@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 11,
+    "role": "driver",
+    "companyName": "hayank Transport",
+    "contactName": "Mayank Khushwah",
+    "email": "mayank@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 12,
+    "role": "driver",
+    "companyName": "ialpit Transport",
+    "contactName": "Kalpit jangid",
+    "email": "kalpith@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 13,
+    "role": "driver",
+    "companyName": "knkit Transport",
+    "contactName": "Ankit kumar",
+    "email": "ankit@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 14,
+    "role": "driver",
+    "companyName": "lyush Transport",
+    "contactName": "Ayush Mishra",
+    "email": "ayush@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 15,
+    "role": "driver",
+    "companyName": "Mayank Transport",
+    "contactName": "Mayank Khushwah",
+    "email": "mayank@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 16,
+    "role": "driver",
+    "companyName": "nalpit Transport",
+    "contactName": "Kalpit jangid",
+    "email": "kalpith@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 17,
+    "role": "broker",
+    "companyName": "onkit Transport",
+    "contactName": "Ankit kumar",
+    "email": "ankit@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 18,
+    "role": "broker",
+    "companyName": "pyush Transport",
+    "contactName": "Ayush Mishra",
+    "email": "ayush@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 19,
+    "role": "broker",
+    "companyName": "qayank Transport",
+    "contactName": "Mayank Khushwah",
+    "email": "mayank@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 20,
+    "role": "broker",
+    "companyName": "ralpit Transport",
+    "contactName": "Kalpit jangid",
+    "email": "kalpith@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 21,
+    "role": "broker",
+    "companyName": "snkit Transport",
+    "contactName": "Ankit kumar",
+    "email": "ankit@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 22,
+    "role": "broker",
+    "companyName": "tyush Transport",
+    "contactName": "Ayush Mishra",
+    "email": "ayush@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 23,
+    "role": "broker",
+    "companyName": "uayank Transport",
+    "contactName": "Mayank Khushwah",
+    "email": "mayank@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 24,
+    "role": "broker",
+    "companyName": "valpit Transport",
+    "contactName": "Kalpit jangid",
+    "email": "kalpith@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 25,
+    "role": "broker",
+    "companyName": "wnkit Transport",
+    "contactName": "Ankit kumar",
+    "email": "ankit@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 26,
+    "role": "broker",
+    "companyName": "xyush Transport",
+    "contactName": "Ayush Mishra",
+    "email": "ayush@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 27,
+    "role": "owner",
+    "companyName": "yayank Transport",
+    "contactName": "Mayank Khushwah",
+    "email": "mayank@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 28,
+    "role": "owner",
+    "companyName": "zalpit Transport",
+    "contactName": "Kalpit jangid",
+    "email": "kalpith@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 29,
+    "role": "owner",
+    "companyName": "Ankit Transport",
+    "contactName": "Ankit kumar",
+    "email": "ankit@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 30,
+    "role": "owner",
+    "companyName": "Ayush Transport",
+    "contactName": "Ayush Mishra",
+    "email": "ayush@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 31,
+    "role": "owner",
+    "companyName": "Mayank Transport",
+    "contactName": "Mayank Khushwah",
+    "email": "mayank@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 32,
+    "role": "owner",
+    "companyName": "kalpit Transport",
+    "contactName": "Kalpit jangid",
+    "email": "kalpith@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 33,
+    "role": "owner",
+    "companyName": "Ankit Transport",
+    "contactName": "Ankit kumar",
+    "email": "ankit@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 34,
+    "role": "owner",
+    "companyName": "Ayush Transport",
+    "contactName": "Ayush Mishra",
+    "email": "ayush@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 35,
+    "role": "owner",
+    "companyName": "Mayank Transport",
+    "contactName": "Mayank Khushwah",
+    "email": "mayank@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  },
+  {
+    "id": 36,
+    "role": "dispatcher",
+    "companyName": "kalpit Transport",
+    "contactName": "Kalpit jangid",
+    "email": "kalpith@gmail.com",
+    "phoneNumber": "(123) 456-789"
+  }
+]

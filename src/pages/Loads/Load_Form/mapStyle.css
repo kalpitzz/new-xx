@@ -1,0 +1,59 @@
+.map{
+    width: 50%;
+    height: 60vh !important;
+    border: 2px solid black;
+    display: none;
+  }
+
+
+
+  .pickup_location_line_1{
+    border: 1px solid var(--border);
+    border-radius: .4rem;
+    width: 94.5%;
+  }
+
+  .dropoff_location_line_1{
+    border: 1px solid var(--border);
+    border-radius: .4rem; 
+    width: 94.5%;
+  }
+
+  .errorStyle{
+    border: 1px solid red;
+  }
+
+  #printoutPanel{
+    display: none;
+    width: 100%;
+  }
+ 
+  .MicrosoftMap .directionsPanel ul {
+    display: none;
+ }
+
+ .MicrosoftMap .drTitle.selected {
+  display: none;
+}
+
+.MicrosoftMap.dirSDK .directionsPanel{
+  width: 100% !important;
+}
+
+.MicrosoftMap .as_container_search {
+  position: absolute;
+  left: 0;
+  top: 100%;
+}
+
+@media (max-width: 912px) {
+  .map{
+    width: 100%;
+    height: 60vh !important;
+    border: 2px solid black;
+    display: none;
+  }  
+}
+
+
+

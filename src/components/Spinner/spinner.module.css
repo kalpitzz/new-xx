@@ -1,0 +1,14 @@
+.parentDiv {
+  width: 150px;
+  height: 150px;
+  z-index: 160;
+  margin: 40vh auto;
+  background-color: black;
+  border-radius: 100px;
+}
+.topmostDiv{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 300;
+}

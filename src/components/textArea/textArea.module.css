@@ -1,0 +1,19 @@
+.textAreaWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.labelStyle {
+  font-size: 0.85rem;
+  margin-top: 0.8rem;
+  font-weight: 500;
+  line-height: 1.138rem;
+}
+
+.textedArea {
+  resize: none;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(26, 16, 0, 0.1);
+  padding: 0.5rem;
+  font-size: 0.83rem;
+}

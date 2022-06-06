@@ -1,0 +1,250 @@
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+a,
+a:visited {
+  color: #2ab3a2;
+}
+
+.form input[type='password'],
+input[type='email'],
+input[type='text'],
+textarea {
+  font-family: 'Nunito', sans-serif;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(26, 16, 0, 0.1);
+}
+.label{
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.ErrorMessage{
+background-color: green;
+}
+
+.login_button {
+  padding: 0.5rem;
+  color: white;
+  background-color: #2ab3a2;
+  border-radius: 0.5rem;
+  height: 35px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  margin-bottom: 15px;
+}
+.contactUs_button {
+  padding: 0.5rem;
+  color: white;
+  background-color: #2ab3a2;
+  border-radius: 0.5rem;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  width: -webkit-fill-available;
+  margin: 15px;
+
+}
+
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
+}
+
+/* added by me */
+
+.two_para {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+/* check box */
+
+input[type='checkbox'] {
+  margin-top: -30px;
+  border-radius: 1rem;
+}
+
+input[type='checkbox'] {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeSpeed;
+  width: 13px;
+  height: 13px;
+  margin: 0;
+  margin-right: 1px;
+  display: block;
+  float: left;
+  position: relative;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 1rem;
+}
+
+input[type='checkbox']:after {
+  content: '';
+  vertical-align: middle;
+  text-align: center;
+  position: absolute;
+  cursor: pointer;
+  height: 19px;
+  width: 19px;
+  left: -3px;
+  top: -2px;
+  font-size: 14px;
+  border-radius: 1rem;
+  box-shadow: inset 0 1px 1px #2ab3a2, 0 1px 0 #2ab3a2;
+  background: #2ab3a2;
+}
+
+input[type='checkbox']:hover:after,
+input[type='checkbox']:checked:hover:after {
+  background: #2ab3a2;
+
+  content: '\2714';
+
+  color: #fff;
+  border-radius: 1rem;
+}
+
+input[type='checkbox']:checked:after {
+  background: #2ab3a2;
+
+  content: '\2714';
+
+  color: #fff;
+
+  border-radius: 10%;
+  border-radius: 1rem;
+}
+
+.right_div_logo {
+  display: block;
+  height: 2.5rem;
+  margin: auto;
+}
+
+.authentication_left_div {
+  width: 50%;
+  max-height: 100vh;
+  height: 100vh;
+}
+.authentication_right_div {
+  width: 50%;
+  padding-top: 5vh;
+  max-height: 100vh;
+  height: 100vh;
+  overflow: scroll;
+}
+.authentication_left_div img {
+  width: 50vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: right;
+}
+.section_area {
+  margin: 1rem;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgba(0, 0, 0, 0);
+  font-family: -webkit-pictograph;
+}
+
+/* reset.css */
+
+.resetCode input[type='text'] {
+  width: 40px;
+  height: 50px;
+  border: 1px solid rgb(71, 71, 71);
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.errors {
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.section_content_div {
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  max-height: 100%;
+}
+.section_content_div h1 {
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.section_content_div p {
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+/* responsive mobile css */
+@media only screen and (max-width: 1000px) {
+  .authentication_left_div {
+    display: none;
+  }
+  .authentication_right_div {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section_content_div {
+    width: 90%;
+  }
+}

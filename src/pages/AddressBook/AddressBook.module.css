@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'DM Sans', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  margin-top: 1rem;
+}
+.tr th {
+  text-align: left;
+  opacity: 80%;
+}
+.displayType {
+  display: flex;
+}
+
+.select {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  height: 20px;
+  width: 20px;
+}
+
+.abcdButtonStyle {
+  padding: 0.6rem 0.6rem;
+  margin: 5px 5px;
+  background-color: white;
+  box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 25%);
+  color: black;
+  border-radius: 8px;
+  width: 2.1rem;
+  margin-top: 1rem;
+}
+.abcActive {
+  background-color: black;
+  color: white;
+}
+
+.searchIcon {
+  position: absolute;
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.searchStyle {
+  box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 25%);
+  height: 2.3rem;
+  width: 100%;
+  border-radius: 0.3rem;
+  padding-left: 3rem;
+  font-size: 1rem;
+}
+
+.searchStyle::placeholder {
+  font-size: 1rem;
+}
+
+.navhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+}
+
+.navhead h2 {
+  letter-spacing: 0.1rem;
+  color: black;
+  opacity: 80%;
+}
+.navul {
+  display: flex;
+  margin-top: 10px;
+}
+
+th {
+  background-color: #efeff2;
+}
+.tr {
+  cursor: pointer;
+}
+
+tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.navborder {
+  border-bottom: 1px solid gray;
+  padding: 10px 10px 0px 10px;
+  margin-bottom: 15px;
+}
+
+.navLink:focus {
+  border-bottom: 3px solid var(--main-color-blue);
+  color: var(--main-color-blue);
+}
+
+.navulfor {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.model {
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: min-content;
+  z-index: 1;
+  right: 2%;
+  box-shadow: 1px 1px 10px 0.5px grey;
+}
+
+.mainmodel {
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+  z-index: 1;
+  transform: translateX(-80%);
+}
+.button {
+  background-color: transparent;
+  font-size: 16px;
+  padding: 10px;
+}
+.span {
+  border-radius: 50%;
+  padding: 5px 8px;
+  margin-right: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+.modelButton {
+  width: 10rem;
+}
+.pagination nav ul {
+  justify-content: right;
+}
+
+
+.pagination nav ul li:first-child button {
+  border: 1px solid #b5b5b5;
+}
+
+.pagination nav ul li:last-child button {
+  border: 1px solid #b5b5b5;
+}
+
+.pagination {
+  padding: 0.9rem 0;
+  border-top: 1px solid rgb(0 0 0 / 25%);
+}
+
+.navbutton {
+  padding: 10px 5px;
+  font-size: 15px;
+  background-color: transparent;
+  font-weight: 400;
+  position: relative;
+  padding: 0.8rem 1.7rem;
+}
+.navActive {
+  border-bottom: 4px solid #3288e6 !important;
+}
+.borderForButton {
+  border-bottom: 0.4rem solid #3288e6;
+}
+
+.addnew {
+  font-size: 15px;
+  background-color: #3288e6 !important;
+  color: white !important;
+  font-weight: 400;
+  position: relative;
+  margin: 0px 10px !important;
+}
+.link:hover {
+  color: white;
+}
+
+.export {
+  background-color: white;
+  outline: none;
+  border: 1px solid black;
+  padding: 0.3em 1em;
+  color: black;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  width: 5.5rem;
+  margin: 0px 20px;
+  padding: 3px 5px;
+  font-size: 15px;
+  background-color: transparent;
+  font-weight: 400;
+  position: relative;
+}
+.export:hover {
+  box-shadow: 2px 2px 5px 3px lightgrey;
+}
+.table_Div {
+  margin-top: 25px;
+}
+.table {
+  display: inline-table;
+}
+
+.sideABCDButton {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 912px) {
+  /* Force table to not be like tables anymore */
+  .table,
+  .thead,
+  .tbody,
+  .th,
+  .td,
+  .tr {
+    display: block;
+  }
+  /* .mainmodel {
+    transform: translateX(-65%);
+  } */
+  /* Hide table headers (but not display: none;, for accessibility) */
+  .thead .tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .tr {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #dbefee;
+    color: black;
+    overflow-wrap: anywhere;
+    box-shadow: 0px 1px 10px 1px whitesmoke;
+    width: 85%;
+  }
+
+  .td {
+    /* Behave  like a "row" */
+    border: none;
+
+    position: relative;
+    padding-left: 50%;
+  }
+
+  .td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+
+    padding: 10px 20px;
+    white-space: nowrap;
+  }
+
+  /*
+	Label the data
+	*/
+  .td:nth-of-type(1)::before {
+    white-space: pre-wrap;
+    content: 'Company Name';
+  }
+  .td:nth-of-type(2)::before {
+    white-space: pre-wrap;
+    content: 'Contact Name';
+  }
+  .td:nth-of-type(3):before {
+    white-space: pre-wrap;
+    content: 'Email';
+  }
+  .td:nth-of-type(4):before {
+    white-space: pre-wrap;
+    content: 'Phone Number';
+  }
+  .td:nth-of-type(5):before {
+    white-space: pre-wrap;
+    content: 'Role';
+  }
+  .td:nth-of-type(6):before {
+    white-space: pre-wrap;
+    content: '';
+  }
+  .sideABCDButton {
+    display: flex;
+    /* position: absolute; */
+    flex-direction: column;
+    width: min-content;
+    /* left: 100%; */
+    float: right;
+  }
+
+  .export {
+    padding: 0.3rem 0.5rem;
+    width: fit-content;
+    height: fit-content;
+    margin: 1px 2px;
+  }
+
+  .h2 {
+    font-size: 14px;
+  }
+  .editModel {
+    position: sticky;
+    top: 45%;
+    left: 45%;
+  }
+  .searchStyle {
+    width: 100%;
+  }
+
+  .model {
+    right: -1%;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .tr {
+    width: 62%;
+  }
+  .sideABCDButton {
+    display: flex;
+    /* position: absolute; */
+    flex-direction: column;
+    width: min-content;
+    /* left: 110%; */
+  }
+  .navbutton {
+    font-size: 10px;
+    background-color: transparent;
+    font-weight: 400;
+    position: relative;
+    padding: 0.3rem 0.6rem;
+  }
+
+  .navul {
+    width: 100%;
+  }
+  .navborder {
+    border-bottom: 1px solid gray;
+    margin-bottom: 15px;
+    padding: 0;
+  }
+  /* .export {
+    padding: 0.1rem 0.5rem;
+  } */
+
+  .addnew {
+    padding: 0.1rem 0.5rem;
+  }
+
+  .model {
+    right: -2%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navul {
+    width: 100%;
+  }
+  .navbutton {
+    font-size: 10px;
+    background-color: transparent;
+    font-weight: 400;
+    position: relative;
+    padding: 0.3rem 0.6rem;
+  }
+  .navborder {
+    border-bottom: 1px solid gray;
+    margin-bottom: 15px;
+    padding: 0;
+  }
+  .model {
+    right: -1%;
+  }
+}

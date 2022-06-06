@@ -1,0 +1,433 @@
+.disName {
+  font-size: 1rem;
+  color: white;
+  background-color: rgba(72, 153, 223, 1);
+  border-top-left-radius: 10px;
+  position: sticky;
+  left: 90%;
+  width: fit-content;
+  font-weight: 500;
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+}
+
+.icon {
+  margin-bottom: -6px !important;
+}
+.statusBarMainDiv {
+  display: flex;
+  min-width: max-content;
+  max-width: 100%;
+  justify-content: space-around;
+}
+.span {
+  padding: 0 1rem;
+}
+.firstSpan {
+  margin-left: 0.8rem !important;
+}
+
+.pagination nav ul {
+  justify-content: right;
+}
+
+.pagination nav ul li:first-child button {
+  border: 1px solid #b5b5b5;
+}
+
+.pagination nav ul li:last-child button {
+  border: 1px solid #b5b5b5;
+}
+
+.pagination {
+  padding: 0.9rem 0;
+  border-top: 1px solid rgb(0 0 0 / 25%);
+}
+
+.headerDiv {
+  display: grid;
+  /* grid-template-columns: repeat(7, auto); */
+  width: 100%;
+  background-color: #4899df;
+  overflow: scroll;
+  padding: 10px;
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px; */
+  font-weight: 400;
+  color: black;
+  row-gap: 20px;
+  border-radius: 10px;
+  padding-top: 1rem;
+}
+.dashboardHeading {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+.gridseven {
+  /* display: grid; */
+
+  grid-template-columns: repeat(7, auto);
+}
+.grideight {
+  /* display: grid; */
+
+  grid-template-columns: repeat(8, auto);
+}
+.headerDiv div {
+  padding: 0 10px;
+}
+.dataBody {
+  background-color: #e0f5f3;
+  padding: 10px !important;
+}
+.thead {
+  background-color: #4899df;
+  color: black;
+}
+.thead tr td {
+  width: max-content;
+}
+.addCheckCall {
+  background-color: #ffc000;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.tbody {
+  background-color: #e0f5f3;
+  font-weight: 500;
+  color: black;
+}
+
+/* .tbody tr td {
+  background-color: #e9e9ec;
+  border-radius: 10px;
+} */
+
+.detailsMainDiv {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  font-weight: 400;
+}
+
+/* .routeDetails {
+  margin: 0 28% 1rem 28%;
+} */
+.routeStatus {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-left: 5%;
+  margin-bottom: 1rem;
+}
+
+.leftBorderRadius {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.rightBorderRadius {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.card {
+  padding: 1rem;
+  margin-top: 0.8rem;
+  margin-bottom: 30px;
+  background-color: #61616136;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+.sosButtonForDashboard {
+  width: 100%;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 10px;
+
+  color: white !important;
+}
+
+.sosButton {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  /* background-color: red; */
+  color: white;
+}
+
+.driverAlert {
+  background-color: #2684d6;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.geoAddress {
+  background-color: #349eff;
+  color: #ffffff;
+  width: fit-content;
+  padding: 0.8rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  position: absolute;
+  z-index: 500;
+  top: 70%;
+  left: 25%;
+  letter-spacing: 1.7px;
+  display: flex;
+  align-items: center;
+}
+.geoAddress span {
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  font-size: 1.2rem;
+  color: black;
+  margin-right: 0.6rem;
+}
+.mobileViewDisplay {
+  display: none;
+}
+
+.dataHeading {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.label {
+  width: 100%;
+  margin: auto;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.flex {
+  display: flex;
+}
+.center {
+  margin: auto;
+}
+.sosPopUp {
+  position: absolute;
+  background-color: #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1.7rem;
+  width: 40%;
+  border-radius: 0.7rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.titleHead {
+  background-color: #ff6767;
+  width: 10rem;
+  margin: auto;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+.sosPopUpContactDriver {
+  position: absolute;
+  background-color: #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  border-radius: 0.7rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.sosPopUp textarea {
+  border: 1px solid black;
+}
+.sosPopUp form {
+  padding-bottom: 0 !important;
+}
+.sosPopContactDriverWrap {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  text-align: left;
+}
+.sosPopContactDriverLabel {
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+.wrapSos {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+}
+.sosButtonWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+.heading {
+  background-color: #ff8e8e;
+  margin-top: 1rem;
+}
+.messageSos {
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+  min-height: 6rem;
+}
+.phoneSos {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 0.7rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.4rem;
+}
+.geoSosButton {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  display: flex;
+  align-items: center;
+  border-radius: 0.7rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.4rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.geoSosButton i {
+  margin-right: 0.5rem;
+}
+.sosButtons {
+  background-color: #ff6767;
+  padding: 0.4rem;
+  width: 7rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+  letter-spacing: 1.5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin: 0 auto;
+}
+.buttonWrapSos {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 1rem auto 1.5rem auto;
+}
+.whiteButton {
+  border: 1px solid #c4c4c4;
+  padding: 0.4rem 0.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  color: #2684d6;
+}
+.textedArea{
+  resize: none;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(26, 16, 0, 0.1);
+  padding: 0.6rem 0.6rem 0.6rem 1.2rem !important;
+  font-size: 1rem !important;
+  width: 100%;
+}
+.blueButton{
+  background-color: #2684d6;
+  color: #ffffff;
+  padding: 0.4rem 0.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  border-radius: 0.5rem;
+}
+
+.gioMap {
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 1200px) {
+  .geoAddress span {
+    font-size: 0.8rem;
+  }
+  .geoAddress p {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 916px) {
+  .sosPopUp {
+    width: 90%;
+  }
+  .sosPopContactDriverWrap {
+    grid-template-columns: 1fr;
+  }
+  .sosPopUpContactDriver {
+    width: 60%;
+  }
+  .buttonWrapSos {
+    width: 60%;
+  }
+  .geoAddress {
+  left:0;
+  top: 70%;
+  padding: 0.3rem;
+  border-top-right-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+  
+  }
+  .geoAddress span {
+    font-size: 0.8rem;
+  }
+  .geoAddress p {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .dashboardHeading {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  .mobileViewDisplay {
+    display: block;
+  }
+  .detailsMainDiv div {
+    font-size: 0.8rem;
+  }
+  .routeStatus {
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+  .headerDiv {
+    display: none;
+  }
+  .sosButtonForDashboard {
+    margin: 5px 0 !important;
+    font-size: 0.8rem !important;
+  }
+  .buttonWrapSos {
+    width: 70%;
+  }
+  .sosButtons {
+    width: 6rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .sosPopUpContactDriver {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .dashboardHeading {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .detailsMainDiv {
+    grid-template-columns: repeat(2, auto);
+    row-gap: 0.5rem;
+    width: 100%;
+  }
+  .routeStatus {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .sosPopUpContactDriver {
+    width: 90%;
+  }
+  .buttonWrapSos {
+    width: 80%;
+  }
+}
